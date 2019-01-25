@@ -1,0 +1,15 @@
+{
+  "main.css": "/addressBook/static/css/main.3b2bc9ed.chunk.css",
+  "main.js": "/addressBook/static/js/main.966bd795.chunk.js",
+  "main.js.map": "/addressBook/static/js/main.966bd795.chunk.js.map",
+  "static/css/1.2956c5e5.chunk.css": "/addressBook/static/css/1.2956c5e5.chunk.css",
+  "static/js/1.1107e9f6.chunk.js": "/addressBook/static/js/1.1107e9f6.chunk.js",
+  "static/js/1.1107e9f6.chunk.js.map": "/addressBook/static/js/1.1107e9f6.chunk.js.map",
+  "runtime~main.js": "/addressBook/static/js/runtime~main.b344cc90.js",
+  "runtime~main.js.map": "/addressBook/static/js/runtime~main.b344cc90.js.map",
+  "static/css/1.2956c5e5.chunk.css.map": "/addressBook/static/css/1.2956c5e5.chunk.css.map",
+  "static/css/main.3b2bc9ed.chunk.css.map": "/addressBook/static/css/main.3b2bc9ed.chunk.css.map",
+  "index.html": "/addressBook/index.html",
+  "precache-manifest.e7c83989c8e21ce7554db2774a863f7c.js": "/addressBook/precache-manifest.e7c83989c8e21ce7554db2774a863f7c.js",
+  "service-worker.js": "/addressBook/service-worker.js"
+}
