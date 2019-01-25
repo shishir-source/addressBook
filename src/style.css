@@ -1,0 +1,120 @@
+.wrapper {
+    padding: 10%;
+}
+
+.even {
+    background: rgb(255, 167, 81);
+}
+.fresh-table {
+    position: relative !important;
+    min-width: 105% !important;
+    left: -10% !important;
+    right: 10% !important;
+    padding: 20px !important;
+}
+
+thead>tr {
+    text-transform: uppercase;
+}
+tbody>tr:hover {
+    background: rgb(255, 167, 81);
+}
+
+
+.action input[type=search], .add-btn, input {
+    width: 20%;
+    padding: 5px;
+    padding-left: 2%;
+    margin: 10px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.582);
+    color: white;
+    background: transparent;
+}
+.action input[type=search] {
+    font-size: 18px !important;
+}
+
+.action input[type=search]:active, .action input[type=search]:focus:not([readonly]), .action input[type=search]:hover, .add-btn:active,
+ .add-btn:focus, .add-btn:hover{
+    border: 2px solid white;
+    color: white;
+    box-shadow: none;
+    outline: none;
+    background: transparent;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 80%;
+}
+.add-btn{
+    padding:0;
+    float: right;
+    box-shadow: none;
+    border: 2px solid rgba(255, 255, 255, 0.582) !important;
+    color: rgba(255, 255, 255, 0.582) !important;
+}
+.add-btn:hover {
+    border: 2px solid white !important;
+    color: white !important;
+}
+
+.popup-input input {
+    box-shadow: none !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border: 2px solid rgba(255, 255, 255, 0.582) !important;
+    color: white !important;
+    background: transparent;
+    padding: 5px !important;
+    padding-left: 5% !important;
+    width: 90% !important;
+    font-size: 14px; 
+}
+
+.popup-input {
+    width: 100%;  
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%; 
+}
+.heading {
+    color: white;
+}
+.heading a{
+    color: rgba(255, 255, 255, 0.582);
+}
+.heading a:hover{
+    color: white;
+}
+.popup-form {
+    position: fixed;
+    opacity: 0;
+    z-index: -10;
+    top: 10%;
+    left: 15%;
+    width: 80%;
+}
+.blur {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.541);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+}
+.default {
+    padding-left: 25%;
+    font-size: 100%;
+}
+.footer {
+    height: 50px;
+}
